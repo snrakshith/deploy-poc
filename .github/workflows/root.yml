@@ -5,8 +5,8 @@ on:
     branches:
       - main
     paths:
-      - '!apps/**'
-      - '!packages/**'
+      - '!apps/**/*'
+      - '!packages/**/*'
 
 jobs:
   build:
