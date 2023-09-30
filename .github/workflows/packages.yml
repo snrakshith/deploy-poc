@@ -22,7 +22,7 @@ jobs:
 
       - name: Install dependencies and build
         run: |
-          for dir in packages/*; do
+          for dir in packages/*/; do
             if [ -f "$dir/package.json" ]; then
               echo "Building $dir"
               cd "$dir"
