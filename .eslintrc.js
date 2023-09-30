@@ -1,8 +1,8 @@
 module.exports = {
   root: true,
-  settings: {
-    next: {
-      rootDir: ["apps/*/"],
-    },
-  },
+  // settings: {
+  //   next: {
+  //     rootDir: ["apps/*/"],
+  //   },
+  // },
 };
