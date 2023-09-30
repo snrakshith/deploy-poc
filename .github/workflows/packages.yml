@@ -21,8 +21,14 @@ jobs:
         with:
           node-version: 16          
 
-      - name: Install dependencies
-        run: npm install
-     
-      - name: Build
-        run: npm run lib
+       - name: Install dependencies and build
+        run: |
+          for dir in packages/*; do
+            if [ -f "$dir/package.json" ]; then
+              echo "Building $dir"
+              cd "$dir"
+              npm install
+              npm run lib  # Replace with the appropriate build script
+              cd ..
+            fi
+          done
