@@ -1,7 +1,5 @@
-# Steps
+# CI/CD scenarios
 
-```bash
-> yarn
-> yarn start
-> yarn build
-```
+- Root changes
+- apps changes
+- packages changes
