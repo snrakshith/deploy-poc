@@ -10,7 +10,7 @@ const RemoteRootApp = React.lazy(() => import('remote/RemoteRootApp'))
 export default function App() {
   return (
     <div className="app">
-      <h1>Hello World!</h1>
+      <h1>Hello World!!</h1>
       <h2>This the root App in Host</h2>
       <nav className="horizontal-nav">
         <Link to="/page-a">Host/Page A</Link>
