@@ -21,7 +21,7 @@ jobs:
         with:
           node-version: 16          
 
-       - name: Install dependencies and build
+      - name: Install dependencies and build
         run: |
           for dir in packages/*; do
             if [ -f "$dir/package.json" ]; then
